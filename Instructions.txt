@@ -1,0 +1,23 @@
+
+Practice Loops in C#
+
+1st Challenge
+--------------------------------------------------
+
+1. Add a method named `DisplayItems()` to the MediaLibrary class.
+  a) Use a `for` loop to loop through the items array contained within the MediaLibrary class.
+  b) Cast each item to its subtype and access its `DisplayText` property, passing the property's value to a `Console.WriteLine()` method call.
+
+2. In the Program.cs file, replace the calls to the `Display()` method with a single call to the `DisplayItems()` method.
+
+2nd Challenge
+--------------------------------------------------
+
+1. Add a method named `FindItem()` to the MediaLibrary class.
+  a) The method should return a MediaType item and define a parameter of type `string` named `criteria`.
+  b) Use a `foreach` loop to loop through the items array contained within the MediaLibrary class.
+  c) Return the item whose `Title` property contains the provided `criteria` string parameter value.
+
+2. In the Program.cs file, search the media library for an item by calling the `FindItem()` method.
+  a) If an item is found, pass it into a call to the static MediaLibrary `DisplayItem()` method.
+  b) If an item isn't found, write the message "Item not found!" to the console.
